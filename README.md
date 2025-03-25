@@ -1,0 +1,2 @@
+# loreaEneko
+Git-eko proiektua
