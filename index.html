@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kaixo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <span class="menu-toggle">☰</span>
+        <ul class="menu">
+            <li><a href="#">Hasiera</a></li>
+            <li><a href="#">Proiektua</a></li>
+            <li><a href="#">Kontaktua</a></li>
+        </ul>
+    </nav>
+
     <h2 class="tittle">Kaixo</h2>
 
     <div class="ezkerrean">
-        <p>github eko proiektua</p>
+        <p>GitHubeko proiektua</p>
     </div>
 
-    <div>
-        <img class="img" src="/argazkiak/github.png" alt="github argazkia">
+    <div class="eskubian">
+        <a href="https://github.com/enekgonzTolosaldea/loreaEneko.git" target="_blank">
+            <img class="img" src="/argazkiak/R.gif" alt="github argazkia">
+        </a>
     </div>
+
+    <script>
+        const toggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector(".menu");
+
+        toggle.addEventListener("click", () => {
+            menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+        });
+    </script>
+
 </body>
 </html>
