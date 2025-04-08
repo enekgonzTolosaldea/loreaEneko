@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -7,38 +6,37 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Fondo gris */
 body {
     background-color: grey;
     text-align: center;
 }
 
-/* Estilo del título */
 .tittle {
     text-align: center;
     margin-top: 20px;
 }
 
-/* Sección izquierda */
+/* Gorako paragrafoa */
 .ezkerrean {
     width: 100%;
     text-align: center;
     margin: 20px 0;
 }
 
-/* Sección derecha */
+/* argazkiaren kokapena */
 .eskubian {
     width: 100%;
     text-align: center;
 }
 
+/* argazkia */
 .eskubian .img {
     width: 400px;
     max-width: 90%;
     height: auto;
 }
 
-/* Menú de navegación */
+/* menua */
 nav {
     background: #333;
     padding: 15px;
@@ -47,7 +45,6 @@ nav {
     align-items: center;
 }
 
-/* Lista del menú */
 .menu {
     list-style: none;
     display: flex;
@@ -62,14 +59,12 @@ nav {
     font-size: 18px;
 }
 
-/* Botón de hamburguesa para móviles */
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
 }
 
-/* Responsive para pantallas pequeñas */
 @media (max-width: 768px) {
     .menu {
         display: none;
